@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0074D9;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .skills-container div {
+    flex: 1 1 calc(33% - 20px);
+    padding: 15px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    flex: 1 1 calc(30% - 20px);
+    background-color: #f4f4f4;
+    padding: 15px;
+  }
+  
+  .experience-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
