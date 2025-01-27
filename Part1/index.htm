@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raj Singh Flexbox and Grid Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Flexbox & Grid Layout </h1>
+    <nav class="nav">
+      <a href="#" style="color: white; text-decoration: none;">Home</a>
+      <a href="#" style="color: white; text-decoration: none;">About</a>
+      <a href="#" style="color: white; text-decoration: none;">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Flexbox Section -->
+    <section class="flexbox-section">
+      <h2>Flexbox Example</h2>
+      <div class="flexbox-row">
+        <div class="box">Flex 1</div>
+        <div class="box" style="flex: 2;">Flex 2 (flex-grow 2)</div>
+        <div class="box">Flex 1</div>
+      </div>
+      <div class="flexbox-row" style="flex-wrap: wrap;">
+        <div class="box" style="flex-basis: 100px;">100px Basis</div>
+        <div class="box" style="flex-basis: 200px;">200px Basis</div>
+        <div class="box" style="flex-basis: 150px;">150px Basis</div>
+      </div>
+    </section>
+
+    <!-- Grid Section -->
+    <section class="grid-section">
+      <h2>Grid Example</h2>
+      <div class="grid-box">1</div>
+      <div class="grid-box">2</div>
+      <div class="grid-box">3</div>
+      <div class="grid-box" style="grid-column: span 2;">Spans 2 Columns</div>
+      <div class="grid-box">5</div>
+      <div class="grid-box">6</div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Flexbox & Grid </p>
+  </footer>
+</body>
+</html>
