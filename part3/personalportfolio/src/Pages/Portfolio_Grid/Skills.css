@@ -1,0 +1,17 @@
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.skills-container div {
+  flex: 1 1 calc(33% - 20px);
+  padding: 15px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+  .section {
+    padding: 20px;
+    margin: 10px 0;
+  }

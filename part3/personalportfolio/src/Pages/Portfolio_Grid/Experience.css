@@ -1,0 +1,11 @@
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+
+  .section {
+    padding: 20px;
+    margin: 10px 0;
+  }

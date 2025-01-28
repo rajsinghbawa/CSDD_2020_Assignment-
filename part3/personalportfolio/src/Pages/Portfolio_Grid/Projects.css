@@ -1,0 +1,17 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  flex: 1 1 calc(30% - 20px);
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+  
+  .section {
+    padding: 20px;
+    margin: 10px 0;
+  }

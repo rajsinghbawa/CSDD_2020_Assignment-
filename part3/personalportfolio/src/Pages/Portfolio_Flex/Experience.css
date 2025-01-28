@@ -1,0 +1,10 @@
+.experience1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    padding: 20px;
+    margin: 10px 0;
+  }
